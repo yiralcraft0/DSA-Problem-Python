@@ -6,11 +6,17 @@
 
 **Goal:** Master Data Structures & Algorithms through consistent problem solving.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yiralcraft0/LeetCode-Solutions)
-![GitHub repo size](https://img.shields.io/github/repo-size/v/LeetCode-Solutions)
-![GitHub stars](https://img.shields.io/github/stars/yiralcraft0/LeetCode-Solutions?style=social)
+## Author: **Priyansu Kumar**AKA [YiralcrafT]
 
 </div>
+
+---
+
+# 🚀 Progress Begins Here
+
+> "It's not about solving hundreds of problems. It's about understanding why each solution works."
+
+Happy Coding! 💙
 
 ---
 
@@ -172,9 +178,9 @@ For every problem I solve:
 # 📌 Naming Convention
 
 ```
-0001_Two_Sum.py
-0026_Remove_Duplicates_From_Sorted_Array.py
-0206_Reverse_Linked_List.py
+1_Two_Sum.py
+26_Remove_Duplicates_From_Sorted_Array.py
+206_Reverse_Linked_List.py
 ```
 
 This keeps the repository organized and makes searching easier.
@@ -184,14 +190,8 @@ This keeps the repository organized and makes searching easier.
 # 📖 Resources
 
 - LeetCode
-- NeetCode
+- LeetCode
 - GeeksforGeeks
 - Python Documentation
 
 ---
-
-# 🚀 Progress Begins Here
-
-> "It's not about solving hundreds of problems. It's about understanding why each solution works."
-
-Happy Coding! 💙
