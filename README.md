@@ -6,10 +6,11 @@
 
 **Goal:** Master Data Structures & Algorithms through consistent problem solving.
 
-## Author: **Priyansu Kumar**AKA [YiralcrafT]
+
 
 </div>
-
+---
+### **Author:** Priyanshu ([YiralcrafT](https://github.com/yiralcraft0))
 ---
 
 # 🚀 Progress Begins Here
