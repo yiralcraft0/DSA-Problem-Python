@@ -1,0 +1,32 @@
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# Python
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+ex.py
+# Virtual Environments (in case you create one later)
+venv/
+env/
+.venv/
+
+# ========================
+# OS Generated Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# DSA Specific (Optional)
+# ========================
+# Ignore text files used for testing local inputs/outputs
+input.txt
+output.txt
+*.in
+*.out
