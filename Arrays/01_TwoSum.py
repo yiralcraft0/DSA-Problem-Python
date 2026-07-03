@@ -38,7 +38,7 @@ class Solution:
                     return (i, j)
         return f"No matching element found"
     
-    # Bext optimise-------------------------------
+    # Optimised Way-------------------------------
     # time complexity: O(n)
     # by using hash maps
 
