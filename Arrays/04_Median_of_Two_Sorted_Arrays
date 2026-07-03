@@ -38,44 +38,35 @@ class Solution:
             return median
 
     # Optimised Way-------------------------------
+    # Two Pointer
     # time complexity:
 
-    def findMedianSortedArrays2(self, num1: list[int], num2: list[int]):
-        i = 0
-        j = 0
-        nums = []
-
-        while i < len(num1) and j < len(num2):
-            if num1[i] <= num2[j]:
-                nums.append(num1[i])
+    def findMedianSortedArrays2(self, num1: list[int], num2: list[int]) -> float:
+        len1, len2 = len(num1), len(num2)
+        numsLen = len1 + len2
+        
+        i, j = 0, 0
+        current = 0
+        previous = 0
+        
+        for _ in range((numsLen // 2) + 1):
+            previous = current
+    
+            if i < len1 and (j >= len2 or num1[i] <= num2[j]):
+                current = num1[i]
                 i += 1
             else:
-                nums.append(num2[j])
+                current = num2[j]
                 j += 1
+        if numsLen % 2 != 0:
+            return float(current)
+        return (previous + current) / 2.0
 
-        while i < len(num1):
-            nums.append(num1[i])
-            i += 1
+# Have to do more practise for more better solution
 
-        while j < len(num2):
-            nums.append(num2[j])
-            j += 1
-        
-        numsLen = len(nums)
-        if numsLen % 2 == 0:
-            i1 = int(numsLen / 2)
-            i2 = int(i1 - 1)
-            median = (nums[i1] + nums[i2]) / 2
-            return median
-        else:
-            i1 = int((numsLen - 1)/2)
-            median = nums[i1]
-            return median
-        
-
-
-num1 = [1, 5]
-num2 = [3, 7]
+num1 = [1, 5, 6,10]
+num2 = [3, 4,7,9]
+[1,3,4,5,6,7,9,10]
 solev = Solution()
 
 print(f"{solev.findMedianSortedArrays(num1, num2)}")
