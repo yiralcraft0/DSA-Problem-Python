@@ -14,15 +14,57 @@ Notice that you may not slant the container.
 '''
 
 class Solution:
+    # Brute force solutions---------------------------
+    # time complexity: O(n pow(2))
+
     def maxArea(self, height: list[int]) -> int:
-        ...
+        maxarea = 0
+        length = 0
+        breadth = 0
+
+        for i,j in enumerate(height):
+            for k,l in enumerate(height):
+                if j > l:
+                    length = l
+                else:
+                    length = j
+
+                breadth = k - i
+                area = length * breadth
+                if (area > maxarea):
+                    maxarea = area
+        return maxarea
+    
+    # Optimised Way solutions---------------------------
+    # By two pointer
+    # time complexity: O(n)
+
+    def maxArea2(self, height: list[int]):
+        maxarea = 0
+        length = 0
+        breadth = 0
+        i = 0
+        j = len(height) - 1
+
+        for _ in range(len(height)):
+            if height[i] < height[j]:
+                length = height[i]
+                i += 1
+            else:
+                length = height[j]
+                j -= 1
+            
+            breadth = (j + 1) - i
+            area = length * breadth
+
+            if (area > maxarea):
+                maxarea = area
+        return maxarea
+            
         
-
-        
-
-
 MaxArea = Solution()
 
-heights = [4,3,2,1,4]
+heights = [9,1,8,6,2,5,4,8,3,7,9]
 
 print(MaxArea.maxArea(heights))
+print(MaxArea.maxArea2(heights))
