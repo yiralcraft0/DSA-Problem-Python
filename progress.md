@@ -5,7 +5,7 @@
 # 📅 Week 1 - Arrays & Hash Maps
 
 ## Day 1
-- [ ] #1 Two Sum (Easy)
+- [x] #1 Two Sum (Easy)
 
 **Concepts**
 - Hash Map
