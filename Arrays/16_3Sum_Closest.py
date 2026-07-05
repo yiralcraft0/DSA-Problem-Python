@@ -20,6 +20,9 @@ Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
 '''
 
 class Solution:
+    # Optimised Way solutions---------------------------
+    # time complexity: O(n pow(2))
+    
     def threeSumClosest(self, nums: list[int], target: int) -> int:
         sortNum = nums.sort()
         minDiff = float('inf')
