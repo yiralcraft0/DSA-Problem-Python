@@ -23,6 +23,8 @@ Medium
 """
 
 class Solution:
+    # Brute force solutions---------------------------
+    # time complexity: O(n)
     def searchRange(self, nums: list[int], target: int) -> list[int]:
         if not nums:
             return [-1, -1]
@@ -39,6 +41,9 @@ class Solution:
                 
         return [-1, -1]
     
+    # Optimised Way-------------------------------
+    # time complexity: O(logn)
+    # by using binary search
     def searchRange2(self, nums: list[int], target: int) -> list[int]:
         if not nums:
             return [-1,-1]
