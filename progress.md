@@ -32,7 +32,7 @@
 ---
 
 ## Day 4
-- [ ] #26 Remove Duplicates from Sorted Array (Easy)
+- [x] #26 Remove Duplicates from Sorted Array (Easy)
 
 **Concepts**
 - Two Pointers
