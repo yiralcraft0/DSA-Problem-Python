@@ -20,7 +20,7 @@ Medium
 class Solution:
 
     # Simple But Inlegal way🙄🤫
-    # 🕒 Time Complexity: O(logn)
+    # 🕒 Time Complexity: O(log(n))
     # 💾 Space Complexity: O(1)
     def sortColors1(self, nums: list[int]) -> None:
         nums.sort()
