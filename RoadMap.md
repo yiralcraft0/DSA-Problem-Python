@@ -16,7 +16,7 @@
 - [x] Two Pointers
 - [ ] Prefix Sum
 - [x] Binary Search
-- [ ] Sorting
+- [x] Sorting
 
 ### Recommended Problems
 
@@ -192,13 +192,13 @@
 
 | Phase | Status | Progress |
 |--------|--------|----------|
-| Phase 1 | ⬜ Not Started | 0% |
-| Phase 2 | ⬜ Not Started | 0% |
-| Phase 3 | ⬜ Not Started | 0% |
-| Phase 4 | ⬜ Not Started | 0% |
-| Phase 5 | ⬜ Not Started | 0% |
-| Phase 6 | ⬜ Not Started | 0% |
-| Phase 7 | ⬜ Not Started | 0% |
+| Phase 1 | 🚩 Started     | 60%  |
+| Phase 2 | ⬜ Not Started | 0%   |
+| Phase 3 | ⬜ Not Started | 0%   |
+| Phase 4 | ⬜ Not Started | 0%   |
+| Phase 5 | ⬜ Not Started | 0%   |
+| Phase 6 | ⬜ Not Started | 0%   |
+| Phase 7 | ⬜ Not Started | 0%   |
 
 ---
 
